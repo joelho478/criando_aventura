@@ -7,82 +7,75 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <title>Em busca da cidade perdida</title>
+    <title>Em busca da peça perdida</title>
 </head>
 <body>
     <main>
         <div class="passo ativo" id="passo-0">
-            <img src="img/cenario-passo0.png" alt="">
-            <p>Um dia desses, dentro de um livro da biblioteca da escola, eu descobri uma carta antiga sobre uma cidade perdida, escondida por riquezas e belezas naturais. Nessa carta, a autora deixa algumas pistas para encontrar essa cidade e eu decidi segui-las!</p>
-            <button class="btn-proximo" data-proximo="1">Rio de Janeiro</button>
-            <button class="btn-proximo" data-proximo="2">Pernambuco</button>
+            <img src="img/cenario-passo0.png" alt="Livro antigo sobre teatro">
+            <p>Durante os ensaios da peça escolar, encontrei um roteiro antigo nos bastidores do teatro. Nele, havia anotações sobre uma lendária peça perdida, que teria sido escrita por um dramaturgo famoso mas nunca encenada. Decidi seguir as pistas para encontrá-la!</p>
+            <button class="btn-proximo" data-proximo="1">Teatro Municipal</button>
+            <button class="btn-proximo" data-proximo="2">Armazém de cenários</button>
         </div>
         <div class="passo" id="passo-1">
-            <p>Você começa sua jornada no Rio de Janeiro, subindo o Pico da Tijuca ao amanhecer para encontrar a primeira pista.</p>
-            <button class="btn-proximo" data-proximo="3">Procurar a pista no topo do pico</button>
-            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+            <p>Você começa sua busca no Teatro Municipal, explorando os camarins antigos em busca da primeira pista sobre a peça perdida.</p>
+            <button class="btn-proximo" data-proximo="3">Procurar nos arquivos do teatro</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e focar nos ensaios atuais</button>
         </div>
         <div class="passo" id="passo-2">
-            <p>Em Pernambuco, você visita a histórica cidade de Olinda. Na carta, uma das pistas indica que para localizar a entrada para a cidade perdida você deve procurar a próxima pista em um dos pontos turísticos da cidade. Por qual você começa?</p>
-            <button class="btn-proximo" data-proximo="5">Investigar as igrejas antigas</button>
-            <button class="btn-proximo" data-proximo="6">Explorar as praias próximas</button>
+            <p>No armazém de cenários, você encontra diversos objetos antigos de peças passadas. A anotação no roteiro indica que a próxima pista está escondida em um dos cenários guardados aqui.</p>
+            <button class="btn-proximo" data-proximo="5">Investigar os baús de figurinos</button>
+            <button class="btn-proximo" data-proximo="6">Explorar as prateleiras de adereços</button>
         </div>
         <div class="passo" id="passo-3">
-            <p>No topo do Pico da Tijuca, você encontra uma antiga inscrição apontando que a próxima pista está
-                localizada no Amazonas.</p>
-            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+            <p>Nos arquivos do teatro, você encontra uma antiga fotografia com uma anotação apontando que a próxima pista está localizada no porão do teatro.</p>
+            <button class="btn-proximo" data-proximo="7">Descer para o porão</button>
         </div>
 
         <div class="passo" id="passo-4">
-            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
-            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria
-                encontrado.</p>
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem de alguém desistindo da busca">
+            <p>Você decide que a busca é complicada demais e volta para os ensaios da peça atual, mas sempre se pergunta o que teria encontrado.</p>
         </div>
 
         <div class="passo" id="passo-5">
-            <p>Nas igrejas de Olinda, você descobre um mapa antigo escondido atrás de um altar, apontando que a próxima
-                pista está no Amazonas.</p>
-            <button class="btn-proximo" data-proximo="7">Viajar para o Amazonas</button>
+            <p>Nos baús de figurinos, você descobre um diário antigo escondido sob vestidos de época, com anotações que apontam que a próxima pista está no porão do teatro.</p>
+            <button class="btn-proximo" data-proximo="7">Descer para o porão</button>
         </div>
 
         <div class="passo" id="passo-6">
-            <p>Explorando as praias, você encontra uma caverna escondida, mas ela leva a um beco sem saída.</p>
-            <button class="btn-proximo" data-proximo="8">Voltar e explorar as igrejas</button>
+            <p>Explorando as prateleiras de adereços, você encontra uma caixa misteriosa, mas ela contém apenas programas de peças antigas.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e investigar os baús de figurinos</button>
         </div>
 
         <div class="passo" id="passo-7">
-            <p>No Amazonas, a busca pela cidade perdida se intensifica. Você se depara com um rio bifurcado.</p>
-            <button class="btn-proximo" data-proximo="9">Seguir pelo rio à esquerda</button>
-            <button class="btn-proximo" data-proximo="10">Seguir pelo rio à direita</button>
+            <p>No porão do teatro, a busca pela peça perdida se intensifica. Você se depara com duas portas antigas.</p>
+            <button class="btn-proximo" data-proximo="9">Abrir a porta à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Abrir a porta à direita</button>
         </div>
 
         <div class="passo" id="passo-8">
-            <p>De volta às igrejas, você finalmente encontra o mapa antigo. Agora, para o Amazonas!</p>
-            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+            <p>De volta aos baús de figurinos, você finalmente encontra o diário antigo. Agora, para o porão!</p>
+            <button class="btn-proximo" data-proximo="7">Descer para o porão</button>
         </div>
 
         <div class="passo" id="passo-9">
-            <p>O rio à esquerda leva você a uma cachoeira escondida com inscrições antigas que revelam a entrada da
-                cidade perdida.</p>
-            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+            <p>A porta à esquerda leva você a uma sala secreta com manuscritos antigos que revelam o texto completo da peça perdida.</p>
+            <button class="btn-proximo" data-proximo="11">Estudar a peça encontrada</button>
         </div>
 
         <div class="passo" id="passo-10">
-            <p>O rio à direita termina em uma área pantanosa. Apesar de belas vistas, não há sinais da cidade perdida
-                aqui.</p>
-            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro rio</button>
+            <p>A porta à direita termina em um depósito de mobiliário antigo. Apesar dos objetos interessantes, não há sinais da peça perdida aqui.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar a outra porta</button>
         </div>
 
         <div class="passo" id="passo-11">
-            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
-            <p>Dentro da cidade perdida, você descobre tesouros inimagináveis e decide se dedicar a estudar e preservar
-                este lugar</p>
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando manuscritos valiosos da peça perdida">
+            <p>Com a peça perdida em mãos, você descobre um texto teatral brilhante e decide montar esta obra esquecida, trazendo-a finalmente aos palcos.</p>
         </div>
 
         <div class="passo" id="passo-12">
-            <p>Retornando e escolhendo o rio à esquerda, você finalmente encontra a cachoeira escondida e as inscrições
-                que levam à cidade perdida.</p>
-            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+            <p>Retornando e escolhendo a porta à esquerda, você finalmente encontra a sala secreta com os manuscritos da peça perdida.</p>
+            <button class="btn-proximo" data-proximo="11">Estudar a peça encontrada</button>
         </div>
     </main>
     <script src="script.js"></script>
